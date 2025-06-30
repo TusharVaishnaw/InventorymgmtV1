@@ -13,19 +13,6 @@ This document explains exactly how our team will collaborate using Git and GitHu
 
 ---
 
-## 🧑‍✈️ For Tushar (Repo Owner)
-
-### Create the `dev` Branch (Run in Terminal inside project folder):
-
-```bash
-git checkout main
-git pull origin main
-git checkout -b dev
-git push -u origin dev
-```
-
----
-
 ## 👥 For Team Members
 
 ### 🛠️ One-Time Setup
