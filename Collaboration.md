@@ -31,16 +31,19 @@ git pull origin dev
 
 ### 1. Switch to `dev` and get the latest updates
 
+This will just clone the latest finalised code into your system.
 ```bash
 git checkout dev
 git pull origin dev
 ```
+DO NOT COMMIT OR PUSH ONTO THIS BRANCH.
 
 ### 2. Create a new feature branch
-
+For anything finalised feature you have added create a new branch like this and push to it.
 ```bash
 git checkout -b feature/<your-feature-name>
 ```
+I'll review and test the code and pull request to the dev branch.
 
 ### 3. Do all your work and test it **locally**
 
