@@ -39,7 +39,7 @@ git pull origin dev
 DO NOT COMMIT OR PUSH ONTO THIS BRANCH.
 
 ### 2. Create a new feature branch
-For anything finalised feature you have added create a new branch like this and push to it.
+For anything finalised feature you have added create a new branch like this for pushing the code.
 ```bash
 git checkout -b feature/<your-feature-name>
 ```
@@ -51,7 +51,7 @@ I'll review and test the code and pull request to the dev branch.
 * Finish the feature completely first
 
 ### 4. When the feature is 100% ready:
-
+Finally push your code!!
 ```bash
 git add .
 git commit -m "Complete: <feature-name> ✅"
